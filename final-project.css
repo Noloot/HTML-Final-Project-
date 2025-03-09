@@ -1,0 +1,104 @@
+
+.information{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+body{
+    background-color: blue;
+    margin: 0;
+}
+a{
+    color: white;
+}
+nav, #master_nav, li, a{
+    text-align: right;
+    list-style: none;
+    display: flex;
+    margin: 2px;
+}
+.site_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background: navy;
+    
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.site_location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    color: white;
+}
+#location_p{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.contact_info{
+    color: white;
+}
+.events{
+    color: white;
+    padding: 0 20px;
+}
+.games_grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.home_page{
+    width: 100%;
+    align-items: center;
+}
+.header{
+    color: white;
+}
+/* Calendar.html CSS */
+img{
+    width: 200px;
+}
+/* End of Calendar CSS */
+/* Location CSS */
+iframe{
+    width: 600px;
+    height: 450px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 600px) {
+    iframe{
+        width: 300px;
+        height: 250;
+    }
+}
+/* Location CSS End */
+/* Contact CSS */
+form{
+    margin: 0 10px;
+}
+legend{
+    margin: 10px 0 15px;
+}
+/* Contact CSS End */
+/* Event CSS  */
+#about{
+    color: white;
+}
+.menu_p{
+    text-align: center;
+    font-size: 25px;
+}
